@@ -127,3 +127,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Personal and sub-directories
+01_Data_extraction/_pycache_/
+01_Data_extraction/archive/
+01_Data_extraction/keys/
+**/.ipynb_checkpoints
+keys/
+02_LDA_model/cache/
+02_LDA_model/lda_model.log
+02_LDA_model/lda_train.model
+02_LDA_model/lda_train.model.expElogbeta.npy
+02_LDA_model/lda_train.model.id2word
+02_LDA_model/lda_train.model.state
+02_LDA_model/pkl_cellar/
+.DS_Store
